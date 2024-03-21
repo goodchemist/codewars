@@ -19,5 +19,5 @@ SELECT
   products.price,
   companies.name AS company_name
 FROM products
-LEFT JOIN companies
+JOIN companies
 ON products.company_id = companies.id;
